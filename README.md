@@ -1,24 +1,18 @@
-# README
+<p align="center">JOURNAL</p>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+-------------------
+bdd: gaterings, revendications, reactions, votes, subscribers
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+------------------
+1. VIEWS
+- [ ] app/views/pages/cover.html.slim
+  - [ ] app/views/layouts/\_hearder.html.slim
+  - [ ] app/views/pages/\_gatherings.html.slim
+  - [ ] app/views/pages/\_tops.html.slim
+  - [ ] app/views/pages/\_subscribtion.html.slim
+  - [ ] app/views/pages/\_more.html.slim
+- [ ] app/views/gatherings/new.html.slim
+- [ ] app/views/revendications/new.html.slim
+- [ ] app/views/reactions/index.html.slim
+- [ ] app/views/revendications/index.html.slim
+- [ ] app/views/revendications/show.html.slim
