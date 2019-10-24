@@ -1,0 +1,89 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin: 0;
+  text-decoration: none;
+  word-break: break-word;
+  
+  background-color: green;
+  color: white;
+}
+
+.body-content {
+  display: flex;
+  height: 100%;
+  width-max: 50%;
+  justify-content: center;
+
+  background-color: red;
+}
+
+.header {
+  display: flex;
+  height: 22%;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: blue;
+}
+
+.header-title {
+  display: flex;
+  height: 40%;
+  width: 100%;
+  justify-content: center;
+  font-size: 3em;
+  text-decoration: bold;
+
+  background-color: yellow;
+  color: black;
+}
+
+.header-subtitle {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  justify-content: center;
+  font-style: italic;
+  font-size: 2em;
+
+  background-color: red;
+}
+
+.header-navigation {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  justify-content: center;
+  text-align: row;
+
+  background-color: blue;
+}
+
+.header-navigation-content {
+  display: flex;
+  height: 30%;
+  width: 25%;
+  justify-content: center;
+
+  background-color: blue;
+  border: solid yellow 1px;
+}
