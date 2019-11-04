@@ -1,18 +1,7 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+// fix css here (body, header, title)
+
+
+//////////////////////////////////////body
 
 body {
   display: flex;
@@ -21,69 +10,89 @@ body {
   margin: 0;
   text-decoration: none;
   word-break: break-word;
+  align-content: flex-start;
   
-  background-color: green;
-  color: white;
+  color: black;
+  font-family: Arial Narrow, sans-serif;
+  text-decoration: none;
+  background-image: url('https://cdn.britannica.com/25/93825-050-D1300547/collection-newspapers.jpg');
 }
 
 .body-content {
-  display: flex;
-  height: 100%;
-  width-max: 50%;
+  min-height: 100vh;
+  width: 40em;
   justify-content: center;
+  flex-direction: column;
+  padding: 2em;
 
-  background-color: red;
+  border: solid 3px black;
+  background-color: #FBFBFB; 
 }
+
+//////////////////////////////////header
 
 .header {
   display: flex;
-  height: 22%;
   width: 100%;
   justify-content: center;
   flex-direction: column;
-
-  background-color: blue;
 }
 
 .header-title {
   display: flex;
-  height: 40%;
+  height: 7em;
   width: 100%;
-  justify-content: center;
-  font-size: 3em;
-  text-decoration: bold;
-
-  background-color: yellow;
-  color: black;
+  background-image: url('https://image.noelshack.com/fichiers/2019/45/2/1572910263-logo2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .header-subtitle {
   display: flex;
-  height: 30%;
+  height: 1.3em;
   width: 100%;
   justify-content: center;
   font-style: italic;
   font-size: 2em;
+  margin: 0.5em 0;
 
-  background-color: red;
+  background-color: yellow;
 }
 
 .header-navigation {
   display: flex;
-  height: 30%;
+  height: 1.2em;
   width: 100%;
   justify-content: center;
   text-align: row;
-
-  background-color: blue;
 }
 
 .header-navigation-content {
   display: flex;
-  height: 30%;
+  height: 100%;
   width: 25%;
   justify-content: center;
 
-  background-color: blue;
-  border: solid yellow 1px;
+  border: solid 1px black;
 }
+
+/////////////////////////////////////title
+
+.title {
+  display: flex;
+  height: 3em;
+  width: 100%;
+  justify-content: center;
+}
+
+.title-content {
+  display: flex;
+  height: 95%;
+  width: 100%;
+  justify-content: center;
+  border: solid black 2px;
+  font-style: italic;
+  font-size: 2em;
+}
+
