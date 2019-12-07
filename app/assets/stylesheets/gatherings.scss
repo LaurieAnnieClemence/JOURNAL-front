@@ -1,0 +1,34 @@
+//////////////////////////////////form for gathering
+
+.form {
+  display: flex;
+  height: 10em;
+  width: 100%;
+  justify-content: right;
+  margin: 2em 0;
+  font-size: 1.3em;
+
+  background-color: yellow;
+  border: solid 2px black;
+}
+
+.form-content {
+  display: flex;
+  padding: 1em;
+  flex-direction: column;
+}
+
+.form-content-line {
+  display: flex;
+  flex-direction: row;
+}
+
+textarea {
+  overflow: auto;
+}
+
+.form-content-tag {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 1em 0;
+}
