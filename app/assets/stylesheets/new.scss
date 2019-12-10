@@ -1,6 +1,6 @@
-//////////////////////////////////form for gathering
+//////////////////////////////////form for gathering and information
 
-.form {
+.new {
   display: flex;
   height: 10em;
   width: 100%;
@@ -12,23 +12,23 @@
   border: solid 2px black;
 }
 
-.form-content {
+.new-content {
   display: flex;
   padding: 1em;
   flex-direction: column;
 }
 
-.form-content-line {
+.new-content-line {
   display: flex;
   flex-direction: row;
 }
 
-textarea {
-  overflow: auto;
-}
-
-.form-content-tag {
+.new-content-tag {
   font-weight: bold;
   font-size: 1.5em;
   margin: 1em 0;
+}
+
+textarea {
+  overflow: auto;
 }
