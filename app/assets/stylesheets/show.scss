@@ -1,0 +1,23 @@
+// for show information and top
+
+.show {
+  display: flex;
+  height: 10em;
+  width: 100%;
+  margin: 2em 0;
+  font-size: 1.3em;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  border: solid 2px black;
+}
+
+.show-content {
+  font-family: Impact, fantasy;
+  padding: 1em;
+}
+
+.show-button {
+  text-decoration: underline;
+}

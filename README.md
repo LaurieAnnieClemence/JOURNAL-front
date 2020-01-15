@@ -9,5 +9,5 @@ bdd: gatherings, informations, reactions, votes, subscribers
   - [x] app/views/layouts/\_header.html.slim
 - [x] app/views/gatherings/new.html.slim
 - [x] app/views/informations/new.html.slim
-- [ ] app/views/reactions/index.html.slim
+- [x] app/views/reactions/index.html.slim
 - [ ] app/views/informations/show.html.slim
