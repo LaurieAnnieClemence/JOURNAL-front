@@ -12,7 +12,8 @@ bdd: gatherings, informations, reactions, votes, subscribers
 - [x] app/views/reactions/index.html.slim
 - [x] app/views/informations/show.html.slim
 
-- [ ] petits détails css
+- [x] petits détails css
+- [ ] organiser les fichiers css
 
 2. BDD
 - [ ] gatherings

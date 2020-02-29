@@ -2,7 +2,7 @@
 
 .new {
   display: flex;
-  height: 10em;
+  min-height: 10em;
   width: 100%;
   justify-content: right;
   margin: 2em 0;
@@ -32,4 +32,24 @@
 
 textarea {
   overflow: auto;
+}
+
+/////////////////////////////form for reaction
+
+.index-content-middle-new {
+  min-height: 3em;
+
+  border: solid 2px black;
+}
+
+.index-content-bottom-new {
+  min-width: 10%;
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 1.2em;
+
+  border-right: solid 2px black;
+  border-bottom: solid 2px black;
+  border-left: solid 2px black;
+  background-color: yellow;
 }
