@@ -12,8 +12,13 @@ bdd: gatherings, informations, reactions, votes, subscribers
 - [x] app/views/reactions/index.html.slim
 - [x] app/views/informations/show.html.slim
 
-- [x] petits détails css
-- [ ] organiser les fichiers css
+- [x] organiser les fichiers css
+  - [x] app/assets/stylesheets/body.scss
+  - [x] app/assets/stylesheets/head.scss
+  - [x] app/assets/stylesheets/torso.scss
+  - [x] app/assets/stylesheets/leg.scss
+  - [x] app/assets/stylesheets/foot.scss
+  - [x] app/assets/stylesheets/application.scss
 
 2. BDD
 - [ ] gatherings
@@ -21,3 +26,8 @@ bdd: gatherings, informations, reactions, votes, subscribers
 - [ ] reactions
 - [ ] votes
 - [ ] subscribers
+
+
+
+######REPORT
+- [ ] DÉTAILS!

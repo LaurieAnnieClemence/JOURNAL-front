@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-title {
+  display: flex;
+  height: 7em;
+  width: 100%;
+  background-image: url('https://image.noelshack.com/fichiers/2019/45/2/1572910263-logo2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.header-subtitle {
+  display: flex;
+  height: 1.3em;
+  width: 100%;
+  justify-content: center;
+  font-style: italic;
+  font-size: 2em;
+  margin: 0.5em 0;
+
+  background-color: yellow;
+}
+
+.header-navigation {
+  display: flex;
+  height: 1.6em;
+  width: 100%;
+  justify-content: center;
+  text-align: row;
+}
+
+.header-navigation-content {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  justify-content: center;
+  font-size: 130%;
+  font-family: Impact, fantasy;
+
+  border: solid 1px black;
+}

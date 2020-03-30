@@ -1,0 +1,105 @@
+/////////////////////////////title
+
+.title {
+  display: flex;
+  height: 3em;
+  width: 100%;
+  justify-content: center;
+}
+
+.title-content {
+  display: flex;
+  height: 95%;
+  width: 100%;
+  justify-content: center;
+  border: solid black 2px;
+  font-style: italic;
+  font-size: 180%;
+}
+
+////////////////////////////////////////tops
+
+.tops {
+  display: flex;
+  height: 5em;
+  width: 100%;
+  flex-direction: column;
+
+  margin: 1em 0;
+  font-style: italic;
+}
+
+.tops-content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tops-content-description {
+  width: 30%;
+  height: 90%;
+
+  border: solid 1px black;
+}
+
+//////////////////////////////////form for gathering and information
+
+.new {
+  display: flex;
+  min-height: 10em;
+  width: 100%;
+  justify-content: right;
+  margin: 2em 0;
+  font-size: 1.3em;
+
+  background-color: yellow;
+  border: solid 2px black;
+  font-weight: bold;
+}
+
+.new-content {
+  display: flex;
+  padding: 1em;
+  flex-direction: column;
+}
+
+.new-content-line {
+  display: flex;
+  flex-direction: row;
+}
+
+.new-content-tag {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+// for show information and top
+
+.show {
+  display: flex;
+  height: 10em;
+  width: 100%;
+  margin: 2em 0;
+  font-size: 1.3em;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  border: solid 2px black;
+}
+
+.show-content {
+  font-family: Impact, fantasy;
+  padding: 1em;
+}
+
+.show-button {
+  text-decoration: underline;
+}
