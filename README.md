@@ -21,13 +21,18 @@ bdd: gatherings, informations, reactions, votes, subscribers
   - [x] app/assets/stylesheets/application.scss
 
 2. BDD
-- [ ] gatherings
-- [ ] informations
-- [ ] reactions
-- [ ] votes
-- [ ] subscribers
+- [x] rails db:create
+- [x] rails generate model Gathering date:date time:time location:string content:text
+- [x] rails generate model Information content:text
+- [x] rails generate model Reaction content:text author:string information:references
+- [x] rails generate model Subscriber email:string
+- [x] rails db:migrate
+- [ ] heroku run rails db:create
+- [ ] heroku run rails db:migrate
 
 
 
 ######REPORT
 - [ ] DÉTAILS!
+- [ ] information visuelle
+- [ ] information audio
