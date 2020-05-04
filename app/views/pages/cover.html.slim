@@ -5,12 +5,9 @@
 .tops
   .tops-title
   .tops-content
-    .tops-content-description
-      = "1........"
-    .tops-content-description
-      = "2........"
-    .tops-content-description
-      = "3........"
+    - @tops.each do |top|
+      .tops-content-description
+        = "1. #{top.content}"
 
 .index
   .index-title

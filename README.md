@@ -27,10 +27,25 @@ bdd: gatherings, informations, reactions, votes, subscribers
 - [x] rails generate model Reaction content:text author:string information:references
 - [x] rails generate model Subscriber email:string
 - [x] rails db:migrate
-- [ ] heroku run rails db:create
-- [ ] heroku run rails db:migrate
+- [x] heroku run rails db:create
+- [x] heroku run rails db:migrate
 
+3. CONTROLLERS
+- [ ] vim app/controllers/pages_controller.rb
+  - [x] tops
+  - [ ] index
+  - [ ] more
+- [ ] vim app/controllers/gatherings_controller.rb
+- [ ] vim app/controllers/informations_controller.rb
+- [ ] vim app/controllers/reaction_controller.rb
+- [ ] rails generate controllers subscribers
 
+- [ ] renommer les classes dans les fichiers views et css
+  - [ ] app/views/pages/cover.html.slim
+  - [ ] app/views/gatherings/index.html.slim
+  - [ ] app/views/informations/index.html.slim
+  - [ ] app/views/informations/show.html.slim
+  - [ ] app/views/reactions/index.html.slim
 
 ######REPORT
 - [ ] DÉTAILS!
