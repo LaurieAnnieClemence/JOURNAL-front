@@ -12,37 +12,14 @@
 .index
   .index-title
     = "Rencontres prévues"
-  .index-content
-    .index-content-date
-      = "le 18/11/2019"
-    .index-content-middle
-      = "..........."
-    .index-content-bottom
-      = "18h"
-
-  .index-content
-    .index-content-date
-      = "le 18/11/2019"
-    .index-content-middle
-      = "..........."
-    .index-content-bottom
-      = "18h"
-
-  .index-content
-    .index-content-date
-      = "le 18/11/2019"
-    .index-content-middle
-      = "..........."
-    .index-content-bottom
-      = "18h"
-
-  .index-content
-    .index-content-date
-      = "le 18/11/2019"
-    .index-content-middle
-      = "..........."
-    .index-content-bottom
-      = "18h"
+  - @gatherings.each do |gathering|
+    .index-content
+      .index-content-date
+        = gathering.date
+      .index-content-middle
+        = gathering.content
+      .index-content-bottom
+        = gathering.time.strftime("%R")
 
 .more
   .more-content

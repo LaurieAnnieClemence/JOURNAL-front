@@ -4,59 +4,42 @@
 
 .new
   .new-content
-    .new-content-line
-      .new-content-label
-        = "date:"
-      .new-content-field
-      = "..............."
-    .new-content-line
-      .new-content-label
-        = "ville:"
-      .new-content-field
-        = "..............."
-    .new-content-line
-      .new-content-label
-        = "place:"
-      .new-content-field
-        = "..............."
-    .new-content-line
-      .new-content-label
-        = "description:"
-      .new-content-field
-        = "..............."
-    .new-content-line
-      .new-content-tag
-        = "[] je souhaite diffuser ce rassemblement"
+    = form_for @gathering do |f|
+      .new-content-line
+        .new-content-label
+          = f.label "date"
+        .new-content-field
+          = f.date_field :date
+          i= f.label :starts_at, "(ex: 28/09/2018)"
+      .new-content-line
+        .new-content-label
+          = f.label "heure"
+        .new-content-field
+          = f.time_field :time
+          i= f.label :hour, "(ex: 19:00)"
+      .new-content-line
+        .new-content-label
+          = f.label "localisation"
+        .new-content-field
+          = f.text_field :location
+      .new-content-line
+        .new-content-label
+          = f.label "description"
+        .new-content-field
+          = f.text_area :content
+      .new-content-line
+        .new-content-tag
+          = f.submit "   "
+          = "je souhaite diffuser ce rassemblement"
 
 .index
-  .index-content
-    .index-content-date
-      = "le 18/11/2019"
-    .index-content-middle
-      = "..........."
-    .index-content-bottom
-      = "18h"
-
-  .index-content
-    .index-content-date
-      = "le 18/11/2019"
-    .index-content-middle
-      = "..........."
-    .index-content-bottom
-      = "18h"
-
-  .index-content
-    .index-content-date
-      = "le 18/11/2019"
-    .index-content-middle
-      = "..........."
-    .index-content-bottom
-      = "18h"
-
-  .index-content
-    .index-content-date
-      = "le 18/11/2019"
-    .index-content-middle
-      = "..........."
-    .index-content-bottom
-      = "18h"
+  - @gatherings.each do |gathering|
+    .index-content
+      .index-content-date
+        = gathering.date
+      .index-content-middle
+        = gathering.content
+        br
+        b= gathering.location
+      .index-content-bottom
+        = gathering.time.strftime("%R")

@@ -31,14 +31,13 @@ bdd: gatherings, informations, reactions, votes, subscribers
 - [x] heroku run rails db:migrate
 
 3. CONTROLLERS
+- [x] vim app/controllers/gatherings_controller.rb
+- [ ] vim app/controllers/informations_controller.rb
+- [ ] vim app/controllers/reaction_controller.rb
 - [ ] vim app/controllers/pages_controller.rb
   - [x] tops
   - [ ] index
   - [ ] more
-- [ ] vim app/controllers/gatherings_controller.rb
-- [ ] vim app/controllers/informations_controller.rb
-- [ ] vim app/controllers/reaction_controller.rb
-- [ ] rails generate controllers subscribers
 
 - [ ] renommer les classes dans les fichiers views et css
   - [ ] app/views/pages/cover.html.slim
@@ -47,7 +46,21 @@ bdd: gatherings, informations, reactions, votes, subscribers
   - [ ] app/views/informations/show.html.slim
   - [ ] app/views/reactions/index.html.slim
 
+4. MODELS
+- [ ] Gathering
+
 ######REPORT
 - [ ] DÉTAILS!
 - [ ] information visuelle
 - [ ] information audio
+
+####NOTICE d'utilisation
+* s'approprier le journal en le télechargeant dans votre terminal grâce à la commande <git clone .>  
+* s'approprier le journal en faisant un p'tit <bundle> dans votre terminal
+* s'approprier le journal en s'inscrivant sur MailJet et créer un p'tit fichier caché grâce à la commande <...> en changeant les identifiant par les vôtres   :)
+* s'approprier le journal en faisant un p'tit <bundle> dans votre terminal
+* s'approprier le journal en changeant le titre: "A toi la parole" dans le fichier `...`
+* s'approprier le journal en changeant la couleur dans le fichier `...`
+* s'approprier le journal en rédigeant 3 informations...
+* s'approprier le journal en publiant un rassemblement...
+* s'approprier le journal en le partageant autour de vous...
