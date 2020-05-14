@@ -7,32 +7,22 @@
     = @information.content 
 
 .index
-  .index-content
-    .index-content-middle
-      = "..........."
-      br
-      = "..........."
-      br
-      = "..........."
-    .index-content-bottom
-      = "auteur..."
+  - if reactions = Reaction.where(information_id: @information.id)
+    - reactions.each do |reaction|
+      .index-content
+        .index-content-middle
+          = reaction.content
+        .index-content-bottom
+          = reaction.author
 
   .index-content
-    .index-content-middle
-      = "..........."
-      br
-      = "..........."
-      br
-      = "..........."
-    .index-content-bottom
-      = "auteur..."
-
-  .index-content
-    .index-content-middle-new
-      = "réaction: ..."
-      br
-      = "..........."
-      br
-      = "vos initiales comme signature numérique: ..........."
-    .index-content-bottom-new
-      = "diffuser ma réaction"
+    = form_for Reaction.new do |f|
+      .index-content-middle-new
+        = f.label "réaction:"
+        = f.text_area :content
+        br
+        = f.label "vos initiales comme signature numérique:"
+        = f.text_field :author
+        = f.hidden_field :information_id, :value => @information.id
+      .index-content-bottom-new
+        = f.submit "diffuser ma réaction"

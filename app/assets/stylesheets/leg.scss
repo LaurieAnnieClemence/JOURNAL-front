@@ -72,13 +72,14 @@
 }
 
 .index-content-bottom-new {
+  display: inline-block;
   min-width: 10%;
   align-self: flex-end;
   font-weight: bold;
   font-size: 1.2em;
-
   border-right: solid 2px black;
   border-bottom: solid 2px black;
   border-left: solid 2px black;
+
   background-color: yellow;
 }

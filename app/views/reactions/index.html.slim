@@ -4,43 +4,16 @@
 
 .show
   .show-content
-    = "\" information \""
+    = @information.content
   .show-button
-    = "réagis"
+    = link_to "réagis", information_path(@information.id)
 
 .index
-  .index-content
-    .index-content-information
-      = "informationnnnnnnnnnnnnnnnn"
-    .index-content-middle
-      = "..........."
-      br
-      = "..........."
-      br
-      = "..........."
-    .index-content-bottom
-      = "réagis"
-
-  .index-content
-    .index-content-information
-      = "informationnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"
-    .index-content-middle
-      = "..........."
-    .index-content-bottom
-      = "réagis"
-
-  .index-content
-    .index-content-information
-      = "informationnnnnnnnnnnnnnnnnnnnnnnnnnn"
-    .index-content-middle
-      = "..........."
-    .index-content-bottom
-      = "réagis"
-
-  .index-content
-    .index-content-information
-      = "informationnnnnnnnnnnnnnnnnnnnnnnnnnn"
-    .index-content-middle
-      = "..........."
-    .index-content-bottom
-      = "réagis"
+  - @reactions.each do |reaction|
+    .index-content
+      .index-content-information
+        = Information.find(reaction.information_id).content
+      .index-content-middle
+        = reaction.content
+      .index-content-bottom
+        = link_to "réagis", information_path(reaction.information_id)
