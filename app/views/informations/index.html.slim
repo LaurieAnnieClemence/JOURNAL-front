@@ -4,38 +4,19 @@
 
 .new
   .new-content
-    .new-content-label
-      = "information:"
-    .new-content-field
-    = "..............."
-    br
-    = "..............."
-    br
-    = "..............."
-    .new-content-tag
-      = "[] je souhaite diffuser cet info"
+    = form_for @information, url: {action: "create"}, html: {class: "nifty_form"} do |f|
+      .new-content-label
+        = f.label "information:"
+      .new-content-field
+        = f.text_area :content
+      .new-content-tag
+        = f.submit "   "
+        = "je souhaite diffuser cet info"
 
 .index
-  .index-content
-    .index-content-middle
-      = "..........."
-    .index-content-bottom
-      = "réagis"
-
-  .index-content
-    .index-content-middle
-      = "..........."
-    .index-content-bottom
-      = "réagis"
-
-  .index-content
-    .index-content-middle
-      = "..........."
-    .index-content-bottom
-      = "réagis"
-
-  .index-content
-    .index-content-middle
-      = "..........."
-    .index-content-bottom
-      = "réagis"
+  - @informations.each do |information|
+    .index-content
+      .index-content-middle
+        = information.content
+      .index-content-bottom
+        = link_to "réagis", information_path(information.id)

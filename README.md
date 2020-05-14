@@ -32,7 +32,7 @@ bdd: gatherings, informations, reactions, votes, subscribers
 
 3. CONTROLLERS
 - [x] vim app/controllers/gatherings_controller.rb
-- [ ] vim app/controllers/informations_controller.rb
+- [x] vim app/controllers/informations_controller.rb
 - [ ] vim app/controllers/reaction_controller.rb
 - [ ] vim app/controllers/pages_controller.rb
   - [x] tops
@@ -48,6 +48,7 @@ bdd: gatherings, informations, reactions, votes, subscribers
 
 4. MODELS
 - [ ] Gathering
+- [ ] Information
 
 ######REPORT
 - [ ] DÉTAILS!
