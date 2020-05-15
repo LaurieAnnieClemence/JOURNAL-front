@@ -5,9 +5,9 @@
 .tops
   .tops-title
   .tops-content
-    - @tops.each do |top|
+    - @informations.each do |information|
       .tops-content-description
-        = "1. #{top.content}"
+        = ". #{information.content}"
 
 .index
   .index-title
@@ -18,13 +18,21 @@
         = gathering.date
       .index-content-middle
         = gathering.content
+        br
+        b= gathering.location
       .index-content-bottom
         = gathering.time.strftime("%R")
 
 .more
+  = form_for Subscriber.new do |f|
+    .more-content
+      = f.label "reçois le journal directement dans ta boîte mail!"
+      br
+      = f.text_field :email
+      br
+      = f.submit "s'abonner"
+
   .more-content
-    = "inscription"
-    br 
-    = "test"
-  .more-content
-    = "contact"
+    = "Rédacteur"
+    .more-content-detail
+      = "Si vous aussi, vous voulez ouvrir votre propre journal, merci de contacter: Laurie.Annie.Clemence@gmail.com"

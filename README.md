@@ -34,10 +34,10 @@ bdd: gatherings, informations, reactions, votes, subscribers
 - [x] vim app/controllers/gatherings_controller.rb
 - [x] vim app/controllers/informations_controller.rb
 - [x] vim app/controllers/reaction_controller.rb
-- [ ] vim app/controllers/pages_controller.rb
+- [x] vim app/controllers/pages_controller.rb
   - [x] tops
-  - [ ] index
-  - [ ] more
+  - [x] index
+  - [x] more
 
 - [ ] renommer les classes dans les fichiers views et css
   - [ ] app/views/pages/cover.html.slim
@@ -50,6 +50,7 @@ bdd: gatherings, informations, reactions, votes, subscribers
 - [ ] Gathering
 - [ ] Information
 - [ ] Reaction
+- [ ] Subscriber
 
 ######REPORT
 - [ ] DÉTAILS!
