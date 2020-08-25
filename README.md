@@ -39,12 +39,7 @@ bdd: gatherings, informations, reactions, votes, subscribers
   - [x] index
   - [x] more
 
-- [ ] renommer les classes dans les fichiers views et css
-  - [ ] app/views/pages/cover.html.slim
-  - [ ] app/views/gatherings/index.html.slim
-  - [ ] app/views/informations/index.html.slim
-  - [ ] app/views/informations/show.html.slim
-  - [ ] app/views/reactions/index.html.slim
+- [ ] envoyer des mails de façon automatique
 
 4. MODELS
 - [ ] Gathering
@@ -56,14 +51,18 @@ bdd: gatherings, informations, reactions, votes, subscribers
 - [ ] DÉTAILS!
 - [ ] information visuelle
 - [ ] information audio
+- [ ] renommer les class pour le css...
 
 ####NOTICE d'utilisation
-* s'approprier le journal en le télechargeant dans votre terminal grâce à la commande <git clone .>  
+* s'approprier le journal en le télechargeant dans votre terminal grâce à la commande <git clone .>
 * s'approprier le journal en faisant un p'tit <bundle> dans votre terminal
-* s'approprier le journal en s'inscrivant sur MailJet et créer un p'tit fichier caché grâce à la commande <...> en changeant les identifiant par les vôtres   :)
-* s'approprier le journal en faisant un p'tit <bundle> dans votre terminal
+* s'approprier le journal en s'inscrivant sur MailJet et créer un p'tit fichier caché grâce à la commande <...> en inscrivant vos identifiant    :)
 * s'approprier le journal en changeant le titre: "A toi la parole" dans le fichier `...`
 * s'approprier le journal en changeant la couleur dans le fichier `...`
+* s'approprier le journal en trouvant un serveur pour y stocker votre nouveau journal et ainsi pouvoir le diffuser grâce aux commandes <...>
+* *(s'approprier le journal en trouvant un nom de domaine si l'envie vous dit...)*
+* s'approprier le journal en indiquant votre nouvelle adresse digitale
 * s'approprier le journal en rédigeant 3 informations...
 * s'approprier le journal en publiant un rassemblement...
 * s'approprier le journal en le partageant autour de vous...
+
