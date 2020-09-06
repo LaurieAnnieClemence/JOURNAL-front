@@ -39,7 +39,7 @@ bdd: gatherings, informations, reactions, votes, subscribers
   - [x] index
   - [x] more
 
-- [ ] envoyer des mails de façon automatique
+- [ ] envoyer des mails de façon automatique (cacher key)
 
 4. MODELS
 - [ ] Gathering

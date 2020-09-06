@@ -13,6 +13,8 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'bootsnap', require: false
 gem 'slim-rails'
+gem 'mailjet'
+gem 'dotenv-rails'
 
 group :development, :test do
   gem 'byebug'
