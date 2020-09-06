@@ -26,11 +26,11 @@
 .more
   = form_for Subscriber.new do |f|
     .more-content
-      = f.label "reçois le journal directement dans ta boîte mail!"
+      = f.label "liste d'attente pour reçevoir le journal directement dans ta boîte mail 1 fois par mois!"
       br
-      = f.text_field :email
+      = f.text_field :email, placeholder: "ton adresse mail"
       br
-      = f.submit "s'abonner"
+      = f.submit "s'inscrire"
 
   .more-content
     = "Rédacteur"
