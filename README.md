@@ -48,7 +48,7 @@ bdd: gatherings, informations, reactions, votes, subscribers
 - [ ] Subscriber
 
 ######REPORT
-- [ ] DÉTAILS!
+- [x] DÉTAILS!
 - [ ] information visuelle
 - [ ] information audio
 - [ ] renommer les class pour le css...

@@ -10,11 +10,11 @@
 .title-content {
   display: flex;
   height: 95%;
-  width: 100%;
+  min-width: 100%;
   justify-content: center;
   border: solid black 2px;
   font-style: italic;
-  font-size: 180%;
+  font-size: 170%;
 }
 
 ////////////////////////////////////////tops
@@ -40,6 +40,7 @@
 .tops-content-description {
   width: 30%;
   height: 90%;
+  overflow: hidden;
 
   border: solid 1px black;
 }
@@ -98,6 +99,7 @@ textarea {
 .show-content {
   font-family: Impact, fantasy;
   padding: 1em;
+  overflow: hidden;
 }
 
 .show-button {
