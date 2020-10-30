@@ -49,6 +49,8 @@ bdd: gatherings, informations, reactions, votes, subscribers
 
 ######REPORT
 - [x] DÉTAILS!
+- [ ] supprimer ancienne rencontre
+- [ ] mettre 3 petits points à la fin des textes coupes
 - [ ] information visuelle
 - [ ] information audio
 - [ ] renommer les class pour le css...

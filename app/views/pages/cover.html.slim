@@ -7,7 +7,7 @@
   .tops-content
     - @informations.each do |information|
       .tops-content-description
-        = ". #{information.content}"
+        = link_to ". #{information.content}", information_path(information.id)
 
 .index
   .index-title
