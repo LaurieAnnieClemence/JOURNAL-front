@@ -1,6 +1,6 @@
 <p align="center">
   <strong>JOURNAL</strong>
-  </br><i>new paper for new democraty</i>
+  </br><i>see how you can use this website</i>
 </p>
 
 -----------------------------------------------
@@ -11,7 +11,6 @@
 - tu peux réagir
 - ET TU PEUX REVENDIQUER
 
-(plus il y a de réaction sur une information ou une revendication plus le sujet a de chance d'être pris en compte par les citoyens)
 
 ```
 - you can gathering
@@ -19,11 +18,9 @@
 - you can react
 - AND YOU CAN CLAIM
 
-(more react for 1 information or revendication, more lucky for changement ;)
 
-***journal in english soon if i need and if you need!!!
 ``` 
-
+EXEMPLES USE:
 [http://journal.bylaurie.fr](http://journal.bylaurie.fr)
-
+[http://democratie.bylaurie.fr](http://democratie.bylaurie.fr) ;)
 
