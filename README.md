@@ -23,7 +23,7 @@
 
 
 
-EXEMPLES USE:
+EXEMPLE USE:
 
 [http://democratie.bylaurie.fr](http://democratie.bylaurie.fr) ;)
 
