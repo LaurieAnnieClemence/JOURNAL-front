@@ -2,17 +2,10 @@
   .title-content
     = "À la Une"
 
-.tops
-  .tops-title
-  .tops-content
-    - @informations.each do |information|
-      .tops-content-description
-        = link_to ". #{information.content}", information_path(information.id)
-
-.index
-  .index-title
-    = "Rencontres prévues"
-  - @gatherings.each do |gathering|
+- @gatherings.each do |gathering|
+  .index
+    .index-title
+      = "Rencontres prévues"
     .index-content
       .index-content-date
         = gathering.date
@@ -22,6 +15,38 @@
         b= gathering.location
       .index-content-bottom
         = gathering.time.strftime("%R")
+
+
+
+
+- @informations.each do |information|
+  .show
+    .show-content
+      = information.content
+
+  .index
+    - if reactions = Reaction.where(information_id: information.id)
+      - reactions.each do |reaction|
+        .index-content
+          .index-content-middle
+            = reaction.content
+          .index-content-bottom
+            = reaction.author
+
+    .index-content
+      = form_for Reaction.new do |f|
+        .index-content-middle-new
+          = f.label "réaction:"
+          = f.text_area :content
+          br
+          = f.label "vos initiales comme signature numérique:"
+          = f.text_field :author
+          = f.hidden_field :information_id, :value => information.id
+        .index-content-bottom-new
+          = f.submit "diffuser ma réaction"
+
+
+
 
 .more
   = form_for Subscriber.new do |f|
