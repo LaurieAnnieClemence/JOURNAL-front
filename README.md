@@ -9,14 +9,14 @@
 - tu peux rassembler
 - tu peux informer
 - tu peux réagir
-- ET TU PEUX REVENDIQUER
+- OU TU PEUX CLONER CE REPERTOIRE ET CHANGER SES MOTS!
 
 
 ```
 - you can gathering
 - you can informe
 - you can react
-- AND YOU CAN CLAIM
+- OR YOU CAN CLONE THIS REPERTORY ET CHANGE THIS WORD!
 
 
 ``` 
